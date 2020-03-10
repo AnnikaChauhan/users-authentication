@@ -9,6 +9,7 @@ class App extends Component {
   }
 
   toggleMenu = () => {
+    //maybe an event target???
     this.setState({
       selectedNav: !this.state.selectedNav
     })
