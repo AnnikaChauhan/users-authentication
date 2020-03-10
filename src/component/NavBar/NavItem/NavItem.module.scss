@@ -1,0 +1,13 @@
+.navitem {
+    font-size: 30px;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .active {
+        text-decoration: underline;
+    }
+}

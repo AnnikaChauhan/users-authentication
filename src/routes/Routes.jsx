@@ -44,7 +44,12 @@ export default class Routes extends Component {
             .auth()
             .signOut()
             .then(() => {
-                this.setState({ user: null });
+                this.setState({ 
+                    user: null,
+                    name: null,
+                    photo: null,
+                    email: null
+                });
                 globalHistory.navigate("/public");
                 //console.log(this.state.user);
             })

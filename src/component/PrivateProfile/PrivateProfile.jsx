@@ -1,9 +1,10 @@
 import React, {Component} from "react";
+import styles from "../profile.module.scss";
 
 export default class PrivateProfile extends Component {
     render(){
         return(
-            <section>
+            <section className={styles.profile}>
                 <button onClick={this.props.signOut}>Sign Out</button>
                 <h1>{this.props.name}</h1>
                 <img src={this.props.photo}/>
