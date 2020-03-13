@@ -29,6 +29,7 @@ export default class Routes extends Component {
                     photo: result.user.photoURL,
                     email: result.user.email
                 });
+                globalHistory.navigate("/private/me");
                 console.log(this.state.user);
                 console.log(this.state.name);
                 console.log(this.state.photo);

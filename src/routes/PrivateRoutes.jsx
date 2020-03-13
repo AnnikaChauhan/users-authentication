@@ -7,7 +7,7 @@ export default class PrivateRoutes extends Component {
             globalHistory.navigate("/public");
             return null;
         } else {
-            globalHistory.navigate("/private/me");
+            //globalHistory.navigate("/private/me");
             return this.props.children;
         }
     }
