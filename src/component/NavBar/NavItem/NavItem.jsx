@@ -15,7 +15,10 @@ export default class NavItem extends Component {
                         }
                     }
                 } }
-                to={this.props.route}>{this.props.name}</Link>
+                to={this.props.route}
+                >
+                    {this.props.name}
+                </Link>
             </p>
         );
     }

@@ -1,3 +1,10 @@
+# User Authentication
+This is a react app connected to firebase testing links to firebase authentication. If you click the button to login with google you will be redirected to the 'private' page where it will render your basic information (name, email address) from Google.
+
+This app was build in React. If you clone this repo down you will need to do a 'yarn install' in the terminal in order to install all of the related packages. You can then do a 'yarn start' to view a demo version of the app as you make changes.
+
+This app is available [here](https://users-authentication-e5d61.firebaseapp.com/public).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
